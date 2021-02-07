@@ -516,5 +516,14 @@ namespace ImGuiNET
         {
             return MenuItem(label, string.Empty, false, enabled);
         }
+
+        public static bool DragInt2(string label, ref Vector2i v) =>
+            DragInt2(label, ref v.X);
+        
+        public static bool DragInt3(string label, ref Vector3i v) =>
+            DragInt3(label, ref v.X);
+        
+        public static bool DragInt4(string label, ref Vector4i v) =>
+            DragInt4(label, ref v.X);
     }
 }

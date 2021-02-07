@@ -27,6 +27,7 @@
     </Content>
     <Content Include="..\..\deps\cimgui\win-x64\cimgui.dll">
       <PackagePath>runtimes/win-x64/native</PackagePath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <Pack>true</Pack>
     </Content>
     <Content Include="..\..\deps\cimgui\linux-x64\cimgui.so">
